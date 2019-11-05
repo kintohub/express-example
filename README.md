@@ -33,6 +33,25 @@ Ensure you have node 10 or higher.
 1. `npm install`
 2. `npm start`
 
+## Usage
+#### Optional Environment Variable
+Default value  = `Hello`
+```
+GREETING=Hi
+```
+
+#### Endpoint
+```
+GET http://localhost/hello/world
+```
+
+#### Response
+```json
+{
+  "message": "Hello world"
+}
+``` 
+
 ## What's Next?
 
 You can do a lot with KintoHub and your deployed application. Some helpful links for next steps that you may consider with this project.
