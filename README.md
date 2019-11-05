@@ -33,19 +33,27 @@ Ensure you have node 10 or higher.
 2. `npm start`
 
 ## Usage
-#### Optional Environment Variables
+### Optional Environment Variables
 Default value  = `Hello`, please refer to the `.env-example` file
 ```
 GREETING=Hi
 ```
 
-#### Endpoint
-[Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/express-example/hello/wolrd)
+### API Call
+Local:
 ```
-GET http://localhost/hello/world
+curl -X GET http://localhost/hello/world
 ```
 
-#### Response
+On KintoHub:
+```
+curl -X GET http://<EnvironmentHostName>/<KintoBlockName>/hello/world
+```
+Please refer to [Accessing API Endpoints](https://docs.kintohub.com/docs/features/operating/accessing-endpoints) for the setup instruction
+
+Try this [Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/express-example/hello/wolrd) !
+
+### Response
 ```json
 {
   "message": "Hello world"
