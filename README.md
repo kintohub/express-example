@@ -1,4 +1,4 @@
-# KintoHub Ionic WPA Example
+# KintoHub Express Example
 
 ## Overview
 
@@ -12,14 +12,13 @@ KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More
 
 ## Deployment
 1. Apply this template to your [Github](https://github.com/kintohub/express-example/generate)
-2. Create a [Microservice Block](https://beta.kintohub.com/app/dashboard/) on KintoHub
+2. Create a [Microservice Block](https://docs.kintohub.com/docs/kintoblocks/microservices) on KintoHub
 3. Connect your GithubApp to KintoHub and select the Repository you just generated on your account.
 4. Set the **name** of your kinto block
-5. Choose **Static from build** as your type
-6. Choose `Node.js` as the **language** and `11.7.0` as the **version**
-7. Set the **Build Command** as `npm install`
-8. Set the **Start Command** as `npm start`
-9. Set the **Port** as `80`
+5. Choose `Node.js` as the **language** and `11.7.0` as the **version**
+6. Set the **Build Command** as `npm install`
+7. Set the **Start Command** as `npm start`
+8. Set the **Port** as `80`
 
 You're now good to go! Click **Create Microservice**. Now click **Build Latest Commit**
 
