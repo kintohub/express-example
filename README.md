@@ -1,64 +1,41 @@
-# KintoHub {name}-example
+# KintoHub Ionic WPA Example
 
 ## Overview
-TODO: Cool description / goal of what technology you are bringing onto the plate with what language. This should be sweet and concise.
+
+Express is one of the widely used web framework in Node.js. It can be built easily for microservice on KintoHub!
+
+[Live Example](https://express-example-1d0d2-8caf9.web.master.kintohub.com/)
 
 __About KintoHub:__
 
-KintoHub empowers teams to ship ideas faster. Using an intuitive dashboard, engineers of all silos can effectively collaborate and deliver features and hotfixes with ease. Cloud-native apps are the new and proven golden standard in the software industry but require infrastructure experts and costly complex tooling to get started.  KintoHub has combined and abstracted the best-in-class enterprise technologies allow a single developer to rapidly ship features at massive scale with confidence. [Learn more here](https://www.kintohub.com)
-
-## Requirements
-
-- Ensure you have an account on [KintoHub](www.kintohub.com/sign-up)
-- TODO: Any pre-reqs to list here
+KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More](https://www.kintohub.com)
 
 ## Deployment
-1. Apply this template to your [Github](https://github.com/kintohub/example-template/generate)
-2. Create a [KintoBlockType](www.link.to.create.kintoblock.type.here)
-3. Instructions on what to input in order to create KintoBlock
- 
-[Optional]
- ?. Click on "Build Arguments" and paste the following build args
-```dotenv
-key1=value
-key2=value
-```
-[Optional]
- ?. Click on "Settings" at the top left and paste the following into Environment Variables
-```dotenv
- key1=value
- key2=value
-```
+1. Apply this template to your [Github](https://github.com/kintohub/express-example/generate)
+2. Create a [Microservice Block](https://beta.kintohub.com/app/dashboard/) on KintoHub
+3. Connect your GithubApp to KintoHub and select the Repository you just generated on your account.
+4. Set the **name** of your kinto block
+5. Choose **Static from build** as your type
+6. Choose `Node.js` as the **language** and `11.7.0` as the **version**
+7. Set the **Build Command** as `npm install`
+8. Set the **Start Command** as `npm start`
+9. Set the **Port** as `80`
 
-You're now good to go! Click `Build Latest Commit` and once successful `Add To Project` to deploy.
+You're now good to go! Click **Create Microservice**. Now click **Build Latest Commit**
 
-### TODO:(Optional) Advance Configuration For Production
+... The build takes about 40 seconds. Once complete, Click *Add to Project*
 
-The above instructions are great for `dev` but if you want to setup `production` configuration, we recommend the following.
+Follow the instruction to creating a new project. Once created, you can then click *Open* on your Ionic block and see it running live!
 
-TODO: Provide Instructions via Build Args and/or Kinto Configuration for production use. Ensure each explain tells why it makes it production ready (in one sentence - dont do lengthy!)
+## Installation & Local Run
+Ensure you have node 10 or higher.
 
+1. `npm install`
+2. `npm start`
 
-## Usage
+## What's Next?
 
-1. Provide
-2. Clear
-3. Instructions
-4. On
-5. How
-6. To
-7. Use or Access
+You can do a lot with KintoHub and your deployed application. Some helpful links for next steps that you may consider with this project.
 
-## TODO: (Deleteme) Checklist
-
-- Create dev example
-- Write clear instructions on how to add it to kintohub
-- (optional) write further instruction on how to fine tune it for production 
-- Create tags for the example repository (kintohub, examples, related technologies)
-- Create new example on [kinto-docs](docs.kintohub.com) (add to sidebar + create new page)
-- Double check call URLs and ensure they are appropriate to your username
-
-__Common Snippets:__
-Below are common urls/instructions that could be copy/pasted in some examples. (KintoBlock links, instructions for HA on KintoHub, etc)
-
-Please create PR for future snippets.
+* [Creating multiple environments](https://docs.kintohub.com/docs/projects/environments)
+* [Setting a password to protect your work](https://docs.kintohub.com/docs/kintoblocks/websites#basic-auth-for-websites)
