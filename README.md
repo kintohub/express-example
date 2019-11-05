@@ -2,7 +2,7 @@
 
 ## Overview
 
-Express is one of the widely used web framework in Node.js. It can be built easily for microservice on KintoHub!
+Express is one of the widely used web frameworks in Node.js. It can be built easily for microservice on KintoHub!
 
 [Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/express-example/hello/wolrd)
 
