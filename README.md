@@ -34,7 +34,7 @@ Ensure you have node 10 or higher.
 
 ## Usage
 #### Optional Environment Variables
-Default value  = `Hello`
+Default value  = `Hello`, please refer to the `.env-example` file
 ```
 GREETING=Hi
 ```
