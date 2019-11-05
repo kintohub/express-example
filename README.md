@@ -58,4 +58,3 @@ GET http://localhost/hello/world
 You can do a lot with KintoHub and your deployed application. Some helpful links for next steps that you may consider with this project.
 
 * [Creating multiple environments](https://docs.kintohub.com/docs/projects/environments)
-* [Setting a password to protect your work](https://docs.kintohub.com/docs/kintoblocks/websites#basic-auth-for-websites)
