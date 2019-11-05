@@ -4,7 +4,7 @@
 
 Express is one of the widely used web framework in Node.js. It can be built easily for microservice on KintoHub!
 
-[Live Example](https://express-example-1d0d2-8caf9.web.master.kintohub.com/)
+[Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/express-example/hello/wolrd)
 
 __About KintoHub:__
 
@@ -34,13 +34,14 @@ Ensure you have node 10 or higher.
 2. `npm start`
 
 ## Usage
-#### Optional Environment Variable
+#### Optional Environment Variables
 Default value  = `Hello`
 ```
 GREETING=Hi
 ```
 
 #### Endpoint
+[Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/express-example/hello/wolrd)
 ```
 GET http://localhost/hello/world
 ```
